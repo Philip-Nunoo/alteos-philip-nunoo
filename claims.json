@@ -1,0 +1,50 @@
+[
+  {
+    "claimId": "CLM001",
+    "policyNumber": "POL001",
+    "policyCoveragePeriod": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "claimantDetails": "John Doe",
+    "dateOfIncident": "2023-05-15",
+    "typeOfClaim": "Accident",
+    "claimedAmount": 8000
+  },
+  {
+    "claimId": "CLM002",
+    "policyNumber": "POL002",
+    "policyCoveragePeriod": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "claimantDetails": "Jane Smith",
+    "dateOfIncident": "2023-07-20",
+    "typeOfClaim": "Theft",
+    "claimedAmount": 12000
+  },
+  {
+    "claimId": "CLM003",
+    "policyNumber": "POL003",
+    "policyCoveragePeriod": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "claimantDetails": "Alice Johnson",
+    "dateOfIncident": "2024-02-10",
+    "typeOfClaim": "Damage",
+    "claimedAmount": 5000
+  },
+  {
+    "claimId": "CLM004",
+    "policyNumber": "POL004",
+    "policyCoveragePeriod": {
+      "start": "2022-02-01",
+      "end": "2022-03-03"
+    },
+    "claimantDetails": "Mark Johnson",
+    "dateOfIncident": "2022-02-15",
+    "typeOfClaim": "Fire",
+    "claimedAmount": 1000
+  }
+]

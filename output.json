@@ -1,0 +1,22 @@
+[
+  {
+    "claimId": "CLM001",
+    "isEligible": false,
+    "message": "Claimed amount exceeds threshold"
+  },
+  {
+    "claimId": "CLM002",
+    "isEligible": false,
+    "message": "Claimed amount exceeds threshold"
+  },
+  {
+    "claimId": "CLM003",
+    "isEligible": false,
+    "message": "Claimed amount exceeds threshold"
+  },
+  {
+    "claimId": "CLM004",
+    "isEligible": true,
+    "message": "Eligible"
+  }
+]
