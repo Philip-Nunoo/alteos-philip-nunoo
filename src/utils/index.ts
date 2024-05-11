@@ -1,6 +1,6 @@
 class Logger {
-  info(message: any): void {
-    console.log(`[INFO] ${message}`);
+  info(message: any, ...optionalParams: any[]): void {
+    console.log(`[INFO] ${message}`, optionalParams);
   }
 
   error(message: any, ...optionalParams: any[]): void {
