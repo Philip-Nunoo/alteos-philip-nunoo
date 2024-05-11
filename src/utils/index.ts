@@ -1,9 +1,9 @@
 class Logger {
-  info(message: string): void {
+  info(message: any): void {
     console.log(`[INFO] ${message}`);
   }
 
-  error(message: string, ...optionalParams: any[]): void {
+  error(message: any, ...optionalParams: any[]): void {
     console.error(`[ERROR] ${message}`, optionalParams);
   }
 }

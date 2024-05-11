@@ -1,4 +1,6 @@
-.env
+Not ignored .env file for easy testing
+# .env
 .idea
 dist
 node_modules
+coverage
