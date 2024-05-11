@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Specify ECMAScript target version
+    "module": "NodeNext", // Specify module code generation
+    "moduleResolution": "NodeNext", // Module resolution strategy
+    "outDir": "./dist", // Redirect output structure to the directory
+    "rootDir": "./src", // Specify the root directory of input files
+    "baseUrl": "./src", // Base directory to resolve non-relative module names
+    "paths": {
+      // A series of entries which re-map imports to lookup locations
+      "@utils/*": ["./utils/*"]
+    },
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "strict": true, // Enable all strict type-checking options
+    "noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enable strict checking of function types
+    "strictBindCallApply": true, // Enable strict 'bind', 'call', and 'apply' methods on functions
+    "strictPropertyInitialization": true, // Enable strict checking of property initialization in classes
+    "noImplicitThis": true, // Raise error on 'this' expressions with an implied 'any' type
+    "alwaysStrict": true, // Parse in strict mode and emit "use strict" for each source file
+    "noUnusedLocals": true, // Report errors on unused locals
+    "noUnusedParameters": true, // Report errors on unused parameters
+    "noImplicitReturns": true, // Report error when not all code paths in function return a value
+    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statement
+    "sourceMap": true // Generates corresponding '.map' file
+  },
+  "include": ["src/**/*", "tests/src/claim.spec.ts"],
+  "exclude": ["node_modules", "dist"]
+}

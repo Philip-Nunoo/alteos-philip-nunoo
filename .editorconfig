@@ -1,0 +1,30 @@
+# EditorConfig helps developers define and maintain consistent coding styles
+# across different editors and IDEs
+
+# Top-most EditorConfig file
+root = true
+
+# Set the default charset
+[*]
+charset = utf-8
+
+# Indentation settings
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# End of line settings
+[*.{ts,tsx}]
+end_of_line = lf
+
+# Trim trailing whitespace
+[*.{ts,tsx}]
+trim_trailing_whitespace = true
+
+# Insert final newline
+[*.{ts,tsx}]
+insert_final_newline = true
+
+# Set max line length to 80 characters
+[*.{ts,tsx}]
+max_line_length = 80
